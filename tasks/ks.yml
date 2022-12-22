@@ -23,4 +23,4 @@ KS-events:
   environment: scrapers
   triggers:
     - cron: 10 3 * * ?
-  timeout_minutes: 60
+  timeout_minutes: 180
