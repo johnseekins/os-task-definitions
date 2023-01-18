@@ -17,8 +17,8 @@ MN-events:
   enabled: true
   environment: scrapers
   triggers:
-    - cron: 20 8,17 * * ?
-  timeout_minutes: 60
+    - cron: 20 * * * ?
+  timeout_minutes: 55
 
 MN-text:
   image: openstates/core
